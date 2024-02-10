@@ -4,7 +4,7 @@ const cors=require('cors')
 const alienRouter = require('./routes/aliens')
 
 
-const url = 'mongodb+srv://rajeshlpm88:9944836316@cluster0.yzw2hpn.mongodb.net/?retryWrites=true&w=majority'
+const url = 'mongodb+srv://rajeshlpm88:<password>@cluster0.yzw2hpn.mongodb.net/?retryWrites=true&w=majority'
 const app = express()
 mongoose.connect(url)
 const con = mongoose.connection
